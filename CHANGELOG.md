@@ -1,5 +1,11 @@
 # Changelog
 
+## [Ejercicio 03]
+- Normalización de fechas `fecha_ingreso` y `fecha_egreso` al formato ISO `YYYY-MM-DD` e imputación de fechas inválidas con `1900-01-01`.
+- Normalización de horas `hora_ingreso` y `hora_egreso` al formato 24hs e imputación de horas inválidas con `00:00`.
+- Cálculo e incorporación de la columna `duracion_horas` entre fecha/hora de ingreso y egreso.
+- Limpieza de cadenas, remoción de caracteres especiales y conversión a mayúsculas para las columnas `matricula` y `muelle`.
+
 ## [Ejercicio 02]
 - Inspección inicial de datos con head() e info().
 - Identificación de columnas que requieren conversión de datos.
