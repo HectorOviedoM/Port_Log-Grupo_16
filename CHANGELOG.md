@@ -1,5 +1,9 @@
 # Changelog
 
+## [Ejercicio 02]
+- Inspección inicial de datos con head() e info().
+- Identificación de columnas que requieren conversión de datos.
+- Conteo e informe de valores nulos y porcentaje de completitud por columna.
 
 ## [Ejercicio 02]
 - Descarga del dataset raw desde la URL oficial hacia `port_log/data/raw/port_movements.csv`
