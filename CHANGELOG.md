@@ -5,6 +5,15 @@
 - Normalización de horas `hora_ingreso` y `hora_egreso` al formato 24hs e imputación de horas inválidas con `00:00`.
 - Cálculo e incorporación de la columna `duracion_horas` entre fecha/hora de ingreso y egreso.
 - Limpieza de cadenas, remoción de caracteres especiales y conversión a mayúsculas para las columnas `matricula` y `muelle`.
+- Eliminación de valores nulos en las columnas críticas del dataset.
+- Conversión de tonelaje_declarado y velocidad_ingreso a valores numéricos.
+- Detección y eliminación de valores atípicos mediante el método del rango intercuartílico (IQR).
+- Cálculo de la columna exceso_velocidad_real respecto al límite de velocidad del muelle.
+- Cálculo de la columna exceso_velocidad aplicando una tolerancia del 5%.
+- Conservación de los movimientos que superan el límite de velocidad con tolerancia.
+- Guardado del dataset limpio en port_log/data/interim/port_movements.csv.
+- Exportación del resumen estadístico en port_log/reports/summary_sprint1.csv.
+
 
 ## [Ejercicio 02]
 - Inspección inicial de datos con head() e info().
