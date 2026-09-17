@@ -1,5 +1,10 @@
 # Changelog
 
+
+## [Ejercicio 04]
+- Armado de clase PortAnalyzer para hacer operaciones de analisis sin mutar el dataset.
+- Asume ya fueron eliminaron los movimientos no-infractores del dataset 
+
 ## [Ejercicio 03]
 - Normalización de fechas `fecha_ingreso` y `fecha_egreso` al formato ISO `YYYY-MM-DD` e imputación de fechas inválidas con `1900-01-01`.
 - Normalización de horas `hora_ingreso` y `hora_egreso` al formato 24hs e imputación de horas inválidas con `00:00`.
