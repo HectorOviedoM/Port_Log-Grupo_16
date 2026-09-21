@@ -1,6 +1,15 @@
 # Changelog
 
 
+## [Ejercicio 05]
+- Top 10 matrículas más reincidentes en barras verticales ordenadas de mayor a menor. Exportado a `port_log/data/interim/plots/top_infractores.jpg`.
+- Total de infracciones por turno del día (Madrugada / Mañana / Tarde / Noche) en gráfico de torta. Exportado a `port_log/data/interim/plots/turnos.jpg`.
+- Total de infracciones por mes en barras horizontales ordenadas de mayor a menor, excluyendo las fechas inválidas (`1900-01-01`). Exportado a `port_log/data/interim/plots/meses.jpg`.
+- Histograma del exceso de velocidad real con curva de densidad (KDE) superpuesta. Exportado a `port_log/data/interim/plots/distribucion_exceso.jpg`.
+- Exceso de velocidad promedio por muelle en barras horizontales ordenadas de mayor a menor. Exportado a `port_log/data/interim/plots/exceso_por_muelle.jpg`.
+- Comparación de infracciones con fecha válida vs inválida (`1900-01-01`) en barras simples. Exportado a `port_log/data/interim/plots/fechas_invalidas.jpg`.
+- Todos los gráficos con título, etiquetas en los ejes y leyenda cuando corresponde.
+
 ## [Ejercicio 04]
 - Armado de clase PortAnalyzer para hacer operaciones de analisis sin mutar el dataset.
 - Asume ya fueron eliminaron los movimientos no-infractores del dataset 
