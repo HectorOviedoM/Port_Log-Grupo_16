@@ -1,5 +1,18 @@
 # Changelog
 
+## [Ejercicio 07]
+- Conclusión basada en los resultados del dataset limpio y del diagnóstico del original, exportada a `port_log/reports/conclusion.md`.
+- Distinción entre registros excluidos por limpieza/IQR y movimientos excluidos por no presentar infracción.
+- Análisis de concentración por turnos, muelles y tipos de carga; limitaciones de las horas imputadas y de la duración promedio.
+- Reflexión sobre la migración y propuesta de validaciones y trazabilidad en la captura de datos.
+
+## [Ejercicio 06]
+- Porcentajes de infracciones con alguna fecha u hora de ingreso egreso inválida, contando cada registro una sola vez.
+- Recuperación de la validez original de las horas para no confundir la imputación `00:00` con una medianoche válida.
+- Tipo de carga y origen más frecuentes, con tratamiento de empates, y duración promedio sin convertir ausentes en cero.
+- Celdas ejecutadas sobre el resultado de la limpieza existente, sin modificar los ejercicios 01 a 05.
+
+
 
 ## [Ejercicio 05]
 - Top 10 matrículas más reincidentes en barras verticales ordenadas de mayor a menor. Exportado a `port_log/data/interim/plots/top_infractores.jpg`.
