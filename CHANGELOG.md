@@ -1,5 +1,16 @@
 # Changelog
 
+## [Ejercicio 04] Correcciones y validación
+- Implementación de los promedios real y con tolerancia, conteos por muelle en orden alfabético y por tipo de carga de mayor a menor.
+- Ranking de matrículas con índice desde 1 y copia del DataFrame recibido para preservar los datos externos.
+- Cuatro invocaciones nuevas en celdas separadas, ejecutadas con resultados guardados.
+
+## [Ejercicio 03] Correcciones y trazabilidad
+- Corrección de `normalizar_hora`: uso de `strftime` sobre el Timestamp individual.
+- Incorporación de `hora_ingreso_imputada` y `hora_egreso_imputada` antes de reemplazar horas inválidas, conservadas en el CSV limpio.
+- Conservación de los criterios de limpieza y de los resultados de los ejercicios 06 y 07; las limitaciones por imputación siguen documentadas.
+
+
 ## [Ejercicio 07]
 - Conclusión basada en los resultados del dataset limpio y del diagnóstico del original, exportada a `port_log/reports/conclusion.md`.
 - Distinción entre registros excluidos por limpieza/IQR y movimientos excluidos por no presentar infracción.
