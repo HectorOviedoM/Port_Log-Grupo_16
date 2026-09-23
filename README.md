@@ -13,4 +13,4 @@ En este sprint el equipo analiza y depura esos datos: se arma la estructura del 
 
 El trabajo práctico fue desarrollado y validado en **Google Colab**.
 
-[**Abrir notebook en Google Colab**](https://colab.research.google.com/github/HectorOviedoM/Port_Log-Grupo_16/blob/Sprint_1/01_Port_Log_Grupo_16.ipynb)
+[**Abrir notebook en Google Colab**](https://colab.research.google.com/github/HectorOviedoM/Port_Log-Grupo_16/blob/Sprint_1/01_Port_Log-Grupo_16.ipynb)
