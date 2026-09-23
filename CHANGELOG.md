@@ -1,5 +1,9 @@
 # Changelog
 
+## [Ejercicio 01] Correcciones y validación
+- Se agrego la logica para que el notebook persista los archivos de output en el repositorio remoto, anteriormente se creaban las carpetas y persistian a nivel local pero no estaban incluidos en el repositorio
+
+- 
 ## [Ejercicio 04] Correcciones y validación
 - Implementación de los promedios real y con tolerancia, conteos por muelle en orden alfabético y por tipo de carga de mayor a menor.
 - Ranking de matrículas con índice desde 1 y copia del DataFrame recibido para preservar los datos externos.
