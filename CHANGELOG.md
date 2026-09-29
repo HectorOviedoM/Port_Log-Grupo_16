@@ -1,5 +1,12 @@
 # Changelog
 
+## [Ejercicio 02] Sprint 2 — Día 2
+- Listado y cálculo de tamaño en KB de todas las imágenes disponibles.
+- Clasificación de imágenes en dos grupos: 'plates' y 'completes' según su nombre.
+- Generación y guardado del archivo 'port_log/data/interim/group_images.json' con metadatos de las imágenes.
+- Cálculo de estadísticas promedio (resolución, área y tamaño) para cada grupo.
+- Implementación de la función 'mostrar_muestra' para visualización en grilla de imágenes aleatorias.
+
 ## [Ejercicio 01] Sprint 2 — Día 1
 - Rama `Sprint_2` creada desde `Sprint_1`.
 - Descarga y descompresión de imágenes en `port_log/data/raw/imgs` (100 archivos).
