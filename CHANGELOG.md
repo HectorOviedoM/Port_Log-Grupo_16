@@ -1,5 +1,11 @@
 # Changelog
 
+## [Ejercicio 01] Sprint 2 — Día 1
+- Rama `Sprint_2` creada desde `Sprint_1`.
+- Descarga y descompresión de imágenes en `port_log/data/raw/imgs` (100 archivos).
+- Verificación de CSV de Sprint 1: raw 1500, interim 447, summary 11 registros.
+- Actualización de README para Sprint 2.
+
 ## [Ejercicio 01] Correcciones y validación
 - Se agrego la logica para que el notebook persista los archivos de output en el repositorio remoto, anteriormente se creaban las carpetas y persistian a nivel local pero no estaban incluidos en el repositorio
 
