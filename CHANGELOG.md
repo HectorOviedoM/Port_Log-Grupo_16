@@ -2,6 +2,12 @@
 
 ## Sprint 2
 
+### Ejercicio 04 — Día 4
+- Extracción de matrículas con EasyOCR sobre plates y completes.
+- Matching alfanumérico ≥ 75% contra port_movements.csv.
+- Export de port_log/data/processed/port_movements_image.csv.
+- Actualización de group_images.json con matricula_imagen.
+
 ### [Ejercicio 3] — Día 3 — Ivan Agustin Sandiyu
 - Conversión de las 100 imágenes originales a escala de grises y ecualización de histograma sobre esas salidas.
 - Suavizado gaussiano (5 x 5, sigma automático) sobre las imágenes ecualizadas y detección de bordes Canny (100, 200) sobre las suavizadas.
