@@ -2,6 +2,11 @@
 
 ## Sprint 2
 
+### Ejercicio 03 — Día 3
+- Actualización y reorganización del notebook principal.
+- Incorporación de la automatización para Git y CHANGELOG.
+- Ajustes del flujo de trabajo para ejecución repetible en Colab.
+
 ### Ejercicio 02 — Día 2
 - Listado y cálculo de tamaño en KB de todas las imágenes disponibles.
 - Clasificación de imágenes en dos grupos: 'plates' y 'completes' según su nombre.
