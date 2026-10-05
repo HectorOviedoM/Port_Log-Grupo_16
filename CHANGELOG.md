@@ -2,6 +2,13 @@
 
 ## Sprint 2
 
+### [Ejercicio 3] — Día 3 — Ivan Agustin Sandiyu
+- Conversión de las 100 imágenes originales a escala de grises y ecualización de histograma sobre esas salidas.
+- Suavizado gaussiano (5 x 5, sigma automático) sobre las imágenes ecualizadas y detección de bordes Canny (100, 200) sobre las suavizadas.
+- Guardado de 400 imágenes PNG sin pérdida en las cuatro carpetas solicitadas, separadas en plates (60) y completes (40) por etapa.
+- Visualización de ambos grupos con mostrar_muestra en cada etapa; compatibilidad con imágenes monocromas y muestras de una o dos imágenes.
+- Ejecución y verificación del ejercicio 3: dimensiones, resultados de las cuatro operaciones, repetibilidad y conservación de los originales y metadatos.
+
 ### Ejercicio 03 — Día 3
 - Actualización y reorganización del notebook principal.
 - Incorporación de la automatización para Git y CHANGELOG.
