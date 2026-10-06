@@ -2,6 +2,13 @@
 
 ## Sprint 2
 
+### Ejercicio 05 — Día 5
+- Correción de guardado de paths absolutas
+- Analisis explorativo: infracciones con y sin imagen
+- Analisis explorativo: ratios promedios
+- Analisis explorativo: tasa de exito por grupo
+- Analisis explorativo: pendientes con evidencia visual
+
 ### Ejercicio 04 — Día 4
 - Extracción de matrículas con EasyOCR sobre plates y completes.
 - Matching alfanumérico ≥ 75% contra port_movements.csv.
