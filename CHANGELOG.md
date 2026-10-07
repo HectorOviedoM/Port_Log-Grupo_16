@@ -2,6 +2,12 @@
 
 ## Sprint 2
 
+### Ejercicio 06 — Día 6
+- Conclusión del Ejercicio 6: relación entre los datos tabulares y las imágenes capturadas.
+- Validación visual: 431 de 447 infracciones (96.42%) quedaron asociadas a una imagen.
+- Grupo más útil para el OCR: plates (95.00% de match contra 90.00% de completes).
+- Condiciones de captura que afectaron al matching y mejoras propuestas.
+
 ### Ejercicio 05 — Día 5
 - Correción de guardado de paths absolutas
 - Analisis explorativo: infracciones con y sin imagen
