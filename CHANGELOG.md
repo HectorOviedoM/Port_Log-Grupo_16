@@ -2,6 +2,9 @@
 
 ## Sprint 3
 
+### Ejercicio 02 — Día 2 (gráficos)
+- `port_log/data/interim/plots` migrado de Git a DVC.
+
 ### Ejercicio 02 — Día 2 (imágenes)
 - DVC inicializado con Supabase Storage (bucket `dvc_16`) como remote S3.
 - `port_log/data/raw/imgs` migrado de Git a DVC.
