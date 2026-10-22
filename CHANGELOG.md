@@ -2,6 +2,9 @@
 
 ## Sprint 3
 
+### Ejercicio 02 — Día 2 (dataset procesado)
+- `port_log/data/processed/port_movements_image.csv` versionado con DVC.
+
 ### Ejercicio 02 — Día 2 (gráficos)
 - `port_log/data/interim/plots` migrado de Git a DVC.
 
