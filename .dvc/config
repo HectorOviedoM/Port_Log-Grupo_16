@@ -1,0 +1,6 @@
+[core]
+    remote = supabase_remote
+['remote "supabase_remote"']
+    url = s3://dvc_16
+    endpointurl = https://vfuhlcvxwfcatxibuhov.storage.supabase.co/storage/v1/s3
+    region = us-east-1

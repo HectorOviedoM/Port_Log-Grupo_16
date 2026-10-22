@@ -2,6 +2,10 @@
 
 ## Sprint 3
 
+### Ejercicio 02 — Día 2 (imágenes)
+- DVC inicializado con Supabase Storage (bucket `dvc_16`) como remote S3.
+- `port_log/data/raw/imgs` migrado de Git a DVC.
+
 ### Ejercicio 01 — Día 1
 - Rama `Sprint_3` creada desde `Sprint_2`.
 - Verificación de datasets de sprints anteriores (registros y fecha de último commit).
