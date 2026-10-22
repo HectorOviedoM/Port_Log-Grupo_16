@@ -1,16 +1,19 @@
-# Port Log — Sprint 2
+# Port Log — Sprint 3
 
 ## Sprint actual
-Sprint 2
+Sprint 3
 
 ## Objetivo
-Procesar imágenes de matrículas del Puerto Fluvial de Rosario: organizar el dataset de fotos, agrupar por placa, preprocesar, reconocer texto con OCR y medir el desempeño contra el dataset limpio de Sprint 1.
+Aplicar conocimientos de bases de datos relacionales (SQLAlchemy), versionado de datos (DVC) y búsqueda por similitud visual (ChromaDB) para profesionalizar el sistema portuario.
 
 ## Introducción y contexto
-En Sprint 1 se depuraron los movimientos portuarios y se generaron los CSV de trabajo (`raw`, `interim` y el resumen). En este sprint el equipo trabaja sobre las imágenes asociadas a esos movimientos: descarga y organización de fotos, agrupación por matrícula, pipeline de preprocesamiento (escala de grises, ecualización, blur, Canny), reconocimiento con EasyOCR y métricas de acierto.
+El sistema ha crecido en volumen y complejidad. El equipo de desarrollo portuario necesita:
+
+1. **Persistencia estructurada**: pasar de CSVs a una base de datos relacional con ORM.
+2. **Auditoría de cambios**: poder rastrear qué versión del dataset se usó en cada análisis.
+3. **Identificación visual de buques**: dado que la OCR no siempre funciona bien, el sistema debe poder identificar un buque por similitud visual de su imagen, sin depender del texto.
 
 ## Entorno de ejecución
-
 El trabajo práctico fue desarrollado y validado en **Google Colab**.
 
-[**Abrir notebook en Google Colab**](https://colab.research.google.com/drive/1iCnkIsHzdEI-PWeNtrIE2MUJAZQt4K77)
+[**Abrir notebook en Google Colab**](https://colab.research.google.com/drive/1AK-sScb3g0JEkb4XobOeOb0W9CWkQft-)

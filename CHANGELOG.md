@@ -1,5 +1,12 @@
 # Changelog
 
+## Sprint 3
+
+### Ejercicio 01 — Día 1
+- Rama `Sprint_3` creada desde `Sprint_2`.
+- Verificación de datasets de sprints anteriores (registros y fecha de último commit).
+- Actualización de README para Sprint 3.
+
 ## Sprint 2
 
 ### Ejercicio 06 — Día 6
