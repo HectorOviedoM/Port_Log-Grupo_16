@@ -2,6 +2,11 @@
 
 ## Sprint 3
 
+### Ejercicio 03 — Día 3
+- Diseño del modelo lógico para buques, movimientos, radares y evidencias.
+- Definición de atributos, claves y relaciones entre las entidades.
+- Documentación de cardinalidades a partir de `port_log/data/processed/port_movements_image.csv`.
+
 ### Ejercicio 02 — Día 2 (dataset procesado)
 - `port_log/data/processed/port_movements_image.csv` versionado con DVC.
 
