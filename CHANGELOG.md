@@ -2,6 +2,12 @@
 
 ## Sprint 3
 
+### Ejercicio 04 — Día 4
+- Definición de los modelos Buque, Radar, Movimiento y Evidencia mediante SQLAlchemy ORM.
+- Implementación de __repr__ para inspecciones rápidas y __str__ para representaciones detalladas de los modelos.
+- Implementación de la función procesar_fila_csv para mapear filas del dataset a instancias de Movimiento y sus entidades relacionadas.
+- Pruebas de las representaciones y del mapeo con la fila de ejemplo de la cátedra y una fila del dataset propio.
+
 ### Ejercicio 03 — Día 3
 - Diseño del modelo lógico para buques, movimientos, radares y evidencias.
 - Definición de atributos, claves y relaciones entre las entidades.
