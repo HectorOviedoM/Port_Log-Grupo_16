@@ -38,7 +38,14 @@ from sqlalchemy.orm import (
 
 DEFAULT_REPO = Path(__file__).resolve().parents[1]
 MODEL_CELLS = (39, 40, 41, 42, 43)
-E06_CELLS = (51, 53, 55, 57, 59, 61)
+E06_CELL_IDS = (
+    "l-rWbjG8M-uv",
+    "vbybe9caNDoA",
+    "F-k8mOpbNAon",
+    "0AA7dr5lNAW3",
+    "0LhC1RyrNAAn",
+    "eQ3CshKQM_bn",
+)
 QUERY_NAMES = (
     "consulta01_top_buques",
     "consulta02_sin_evidencia",
@@ -293,7 +300,12 @@ def execute_e06(fixture: Fixture, notebook: dict) -> str:
     """Executes only the six authorized E6 cells against the fixture engine."""
     captured = io.StringIO()
     with contextlib.redirect_stdout(captured):
-        for index in E06_CELLS:
+        indices = {
+            cell.get("metadata", {}).get("id"): index
+            for index, cell in enumerate(notebook["cells"])
+        }
+        for cell_id in E06_CELL_IDS:
+            index = indices[cell_id]
             source = "".join(notebook["cells"][index]["source"])
             if not source.strip():
                 raise ValueError(f"E6 cell {index} is still empty")
