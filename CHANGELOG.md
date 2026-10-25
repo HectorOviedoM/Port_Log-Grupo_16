@@ -2,6 +2,12 @@
 
 ## Sprint 3
 
+### Ejercicio 07 — Día 7
+- Creación de la base vectorial buque_vectorial con ChromaDB.
+- Generación de embeddings visuales mediante OpenCLIP ViT-B-32.
+- Carga de imágenes complete seleccionando la evidencia con mayor ratio.
+- Cálculo de la cobertura entre la base relacional y la base vectorial.
+
 ### [Ejercicio 05] — Día 5
 - Celda explícita de tracear_ejercicio para el Día 5, con reconocimiento de entradas ya registradas y validación de commit y push en repositorios temporales.
 - Creación automática de las tablas ORM y migración del CSV mediante procesar_fila_csv, conservando los modelos existentes.
