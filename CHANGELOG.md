@@ -2,6 +2,12 @@
 
 ## Sprint 3
 
+### [Ejercicio 06] — Día 6
+- Implementación de las seis consultas SQLAlchemy: buques infractores, movimientos sin evidencia, actividad de radares, reincidentes por período, exceso promedio por muelle y cobertura visual.
+- Definición de infracción con exceso positivo tras la tolerancia, período 2024 inclusivo, desempates estables y promedio sobre exceso_velocidad.
+- Consultas de solo lectura mediante Session, con cierre de sesiones y tratamiento de base vacía y rutas de evidencia vacías.
+- Validación local sobre SQLite en memoria con los modelos existentes y los 447 registros del CSV; pruebas independientes y salidas guardadas en las seis celdas del ejercicio.
+
 ### Ejercicio 04 — Día 4
 - Definición de los modelos Buque, Radar, Movimiento y Evidencia mediante SQLAlchemy ORM.
 - Implementación de __repr__ para inspecciones rápidas y __str__ para representaciones detalladas de los modelos.
