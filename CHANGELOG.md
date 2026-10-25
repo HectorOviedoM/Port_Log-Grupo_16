@@ -3,6 +3,7 @@
 ## Sprint 3
 
 ### [Ejercicio 05] — Día 5
+- Celda explícita de tracear_ejercicio para el Día 5, con reconocimiento de entradas ya registradas y validación de commit y push en repositorios temporales.
 - Creación automática de las tablas ORM y migración del CSV mediante procesar_fila_csv, conservando los modelos existentes.
 - Reutilización de buques y radares, tratamiento de ausentes y política explícita para buque_id ambiguos.
 - Carga idempotente con validación previa, detección de conflictos y transacción de inserciones, sin sobrescribir registros existentes.
@@ -10,6 +11,7 @@
 - Carga verificada en Supabase: 31 buques, 8 radares, 447 movimientos y 431 evidencias; repetición con cero inserciones y seis consultas del ejercicio 06 ejecutadas correctamente en Colab.
 
 ### [Ejercicio 06] — Día 6
+- Celda explícita de tracear_ejercicio para el Día 6, con reconocimiento de entradas ya registradas y validación de commit y push en repositorios temporales.
 - Implementación de las seis consultas SQLAlchemy: buques infractores, movimientos sin evidencia, actividad de radares, reincidentes por período, exceso promedio por muelle y cobertura visual.
 - Definición de infracción con exceso positivo tras la tolerancia, período 2024 inclusivo, desempates estables y promedio sobre exceso_velocidad.
 - Consultas de solo lectura mediante Session, con cierre de sesiones y tratamiento de base vacía y rutas de evidencia vacías.
