@@ -2,6 +2,12 @@
 
 ## Sprint 3
 
+### Ejercicio 08 — Día 8
+- Implementación de buscar_buque_por_imagen con OpenCLIP, ChromaDB y SQLAlchemy.
+- Búsqueda del buque por similitud visual y recuperación de sus movimientos y evidencias.
+- Normalización de matrículas para unificar variantes y no perder movimientos.
+- Validación con un caso exitoso, una imagen plate y un buque no indexado.
+
 ### Ejercicio 07 — Día 7
 - Creación de la base vectorial buque_vectorial con ChromaDB.
 - Generación de embeddings visuales mediante OpenCLIP ViT-B-32.
